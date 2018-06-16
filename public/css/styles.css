@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=raleway');
+.nav-container .navbar-brand {
+  height: 70px;
+}
+
+.thumbnail>img {
+    margin-right: auto;
+    height: 200px;
+    width: auto;
+    margin-left: auto;
+}
+
+.row-login{
+  margin: auto !important;
+  padding: 20px;
+}
+
+.subtags{
+  padding-top: 10px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background: rgb(243, 243, 243);
+}
+
+@media (min-width: 768px){
+.col-sm-offset-3 {
+    }
+  }
+
+
+  @media (min-width: 1200px){
+  .container {
+      width: 1054px;
+  }
+}
+
+.centered-content{
+  text-align: center;
+}
+.subtagHeadings{
+  color: rgb(95, 95, 136);
+  /*font-size: 10px;*/
+}
+.paragraph{
+  margin: 30px;
+  color: rgb(99, 99, 99);
+  font-size: 18px;
+  font-family: serif;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #efefef;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #b8ac12;
+    border-color: #b8ac12;
+}
+.btn-info:hover {
+    color: #70b8aa;
+    background-color: white;
+    border-color: #70b8aa;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #55b718;
+    border-color: #4cae4c;
+}
+.btn-success:hover {
+    color: #55b718;
+    background-color: white;
+    border-color: #55b718;
+}
+
+.quote-paragraph{
+  margin: 30px;
+  color: rgb(99, 99, 99);
+  font-size: 18px;
+  font-family: serif;
+  line-height: 1.5;
+  text-align: justify;
+  border: 8px solid #eb5363;
+  padding: 20px;
+  border-radius: 10px;
+}
+#blogparagraph{
+  margin: 0 0 10px;
+  color: rgb(99, 99, 99);
+  font-size: 15px;
+  line-height: 1.5;
+}
+.main-content{
+  padding: 20px;
+  background-color:#e4e4e4;
+}
+/*DropDown BG color*/
+.nav-pills>li>a {
+  border-radius: 4px;
+  background-color: red;
+  background-color: rgb(172, 224, 255);
+}
+input{
+  text-align: center;
+}
+
+.form-group{
+  text-align: center;
+}
+
+.jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-bottom: 30px;
+    color: inherit;
+  }
+
+/*Theme image*/
+.jumbotron {
+  font-family: 'Dosis', sans-serif;
+  letter-spacing: 4px;
+  border-bottom: 11px solid #55b8a9;
+  font-weight: lighter;
+  text-align: center;
+  background-color: #020202 !important;
+  background-size: cover;
+}
+/*Center everything. For mobile view*/
+.col-md-4{
+  text-align: center;
+}
+/*Space after the button*/
+.form-area{
+  padding-bottom: 20px;
+}
+/*Company Logo at the Bottom of the div*/
+.company-logo {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  width: 300px;
+  text-align: center;
+  float: right;
+}
+
+.Title{
+  font-family: arial;
+  color: #969c87;
+  font-weight: bold;
+  font-size:38px;
+}
+li > .active > a{
+  color: white;
+}
+#warning{
+  text-align: center;
+  color: red;
+}
+#success{
+  text-align: center;
+  color: green;
+}
+.form-box{
+  text-align: center;
+}
+
+/*Force Change boder color and background color on the navbar both to white*/
+.navbar-default {
+background-color: white !important;
+border-color: white !important;
+}
+
+/*Active tab color Change*/
+.active a {
+  color: white !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #12b8a8 !important;
+}
+footer{
+  padding: 30px;
+}
+
+.company-logo{
+  float: right;
+}
+#dropdown-col{
+  float: left;
+}
+/*--Style CheckBoxes--*/
+/*-----------------------*/
+/*From DevTips Tut*/
+label{
+  cursor: pointer;
+  font-size: 30px;
+  color: #666;
+}
+
+/*Target the inputs of type checkbox*/
+/*Using Pre-Advanced Selectors'*/
+input[type="checkbox"]{
+  display: none;
+}
+.label-text:before{
+  content: "\f096";
+  font-family: "FontAwesome";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  width: 1em;
+  display: inline-block;
+  margin-right: 5px;
+}
+/*Change icon and color when checked*/
+:checked + .label-text:before{
+  content: "\f14a";
+  color: #0683e9;
+}
+.form-control{
+  color: #dc1032;
+  border-radius: 0px;
+  border: 1px solid #020202;
+
+}
+
+.picture-contact{
+  padding: 20px !important;
+}
+
+/*Center Menu links in dropdown menu on modile view*/
+.nav>li>a {
+  margin-top: 16px;
+  color: #555;
+  text-align: center;
+}
+.nav>.active>a {
+  margin-top: 16px;
+  color: white;
+  text-align: center;
+}
+.nav>li>a:hover{
+  color: #e4e4e4 !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #12b8a8 !important;
+}
+.top-navbar>li>a:hover{
+  color: #12b8a8 !important;
+  background-color: black !important;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.heading{
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: white;
+  line-height: 2;
+  background-color: #020202;
+}
+
+.subject-list{
+  list-style: none;
+  text-align: justify;
+  line-height: 2;
+  font-family: serif;
+  font-size: 18px;
+  background: #ececec;
+  padding: 20px;
+}
+
+.contact-us{
+  list-style: none;
+  padding: 30px;
+  text-align: justify;
+  line-height: 2;
+  font-family: serif;
+  font-size: 18px;
+  background: #ececec;
+  padding: 20px;
+}
+``
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #e5e5e5;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
+
+/*Buttons*/
+
+.btn-default {
+  color: #FEFEFE;
+  border-radius: 0px;
+  border-color: #00B4C6;
+  background-color: #00B4C6;
+}
+.thumbnail {
+  background-color: #e5e5e5;
+}
+.btn-default:hover {
+  color: #020202;
+  border-radius: 0px;
+  border-color: #020202;
+  background-color: white !important;
+}
+
+.sub-tag-span{
+  line-height: 2.5;
+  background-color: black;
+  padding: 10px;
+}
+.sub-tag-span-quote {
+  color: #777777;
+  padding: 10px;
+  line-height: 2.5;
+}
+.thumbnail {
+  border: 0px solid #ddd;
+}
+.thumbnail:hover {
+  border: 0px solid #ddd;
+}
+
+a {
+    color: #55b884;
+    text-decoration: none;
+}
+a:hover {
+    color: #949494;
+    text-decoration: none;
+}
+
+
+#cancel{
+  background: #dc1032;
+  border-color: #dc1032;
+}
+
+#signin, #submit{
+  border-radius: 0px;
+  background: #12b8a8;
+  border-color: #12b8a8;
+}
+
+#submit:hover{
+  border-radius: 0px;
+  background: #12b8a8;
+  border-color: #12b8a8;
+}
+
+#heading_text{
+  color: grey;
+  font-family: monospace;
+}
+
+/*Blog Quote Paragraph*/
+.quote-paragraph {
+   margin: 50px;
+}
+
+/*Media Queries*/
+@media (max-width: 576px) {
+  /*Typewiter on Mobile*/
+  #heading_text{
+    font-size: 20px;
+  }
+  /*Adjust Heading 4 on Small Screens*/
+  .h4, h4 {
+    font-size: 10px;
+  }
+
+  /*Remove Padding from the jumbotron*/
+  .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/*Resize the Home Image*/
+.thumbnail>img {
+    margin-right: auto;
+    height: 152px;
+    width: auto;
+    margin-left: auto;
+}
+
+  /*Blog Paragraphs/MainContent*/
+  .main-content {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fff;
+  }
+
+  .quote-paragraph {
+     margin: 0px;
+  }
+
+  .thumbnail-blog {
+    display: none;
+  }
+
+}

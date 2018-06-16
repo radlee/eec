@@ -1,0 +1,25 @@
+{
+  "name": "Web Express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cool-ascii-faces": "^1.3.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/radlee/nodejsHerokuDeploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/radlee/nodejsHerokuDeploy/issues"
+  },
+  "homepage": "https://github.com/radlee/nodejsHerokuDeploy#readme"
+}
