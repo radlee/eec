@@ -55,8 +55,8 @@ app.get("/operation", mid.requiresLogin, function (req, res) {
     user: req.session.user
   })
 });
-app.get("/media", mid.requiresLogin, function (req, res) {
-  res.render("media", {
+app.get("/media_relations", mid.requiresLogin, function (req, res) {
+  res.render("media_relations", {
     user: req.session.user
   })
 });
