@@ -123,6 +123,10 @@ input {
   margin-bottom: 30px;
   color: inherit;
 }
+/* Active state */
+.nav-item.active a {
+  color: #cbd545;
+}
 
 /*Theme image*/
 .jumbotron {

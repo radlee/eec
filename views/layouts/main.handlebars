@@ -27,6 +27,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="/js/typewriter.js"></script>
+  <script src="/js/nav_links.js"></script>
 
 </head>
 
@@ -67,14 +68,14 @@
             <ul class="nav navbar-nav">
               {{#if user}}
               <li class="active"><a href="/">Home</a></li>
-              <li><a href="/contact">About</a></li>
-              <li><a href="/blog">Services</a></li>
-              <li><a href="/blog">Operation</a></li>
-              <li><a href="/contact">Media Relations</a></li>
-              <li><a href="/contact">Relations</a></li>
-              <li><a href="/contact">Contact</a></li>
+              <li class="nav-item"><a href="/about">About</a></li>
+              <li class="nav-item"><a href="/services">Services</a></li>
+              <li class="nav-item"><a href="/operation">Operation</a></li>
+              <li class="nav-item"><a href="/media">Media Relations</a></li>
+              <li class="nav-item"><a href="/relations">Relations</a></li>
+              <li class="nav-item"><a href="/contact">Contact</a></li>
               {{else}}
-              <li><a href="/about">Click Me!</a></li>
+              <li class="nav-item"><a href="/about">EEC</a></li>
               {{/if}}
             </ul>
             <ul class="nav navbar-nav navbar-right">
