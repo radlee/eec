@@ -116,6 +116,11 @@ input {
 }
 
 .jumbotron {
+  background-image: url("../img/tr.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 65px;
@@ -129,7 +134,7 @@ input {
 }
 
 /*Theme image*/
-.jumbotron {
+/* .jumbotron {
   font-family: "Dosis", sans-serif;
   letter-spacing: 4px;
   border-bottom: 11px solid #cbd545;
@@ -138,7 +143,7 @@ input {
   background-color: #fff !important;
   background-size: cover;
 }
-/*Center everything. For mobile view*/
+Center everything. For mobile view */
 .col-md-4 {
   text-align: center;
 }
@@ -161,7 +166,7 @@ input {
   font-family: arial;
   color: #cbd545;
   font-weight: bold;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 48px;
 }
 li > .active > a {
@@ -443,6 +448,11 @@ input[type="submit"]:hover {
 
   /*Remove Padding from the jumbotron*/
   .jumbotron {
+    background-image: url("../img/tr.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 5px;
