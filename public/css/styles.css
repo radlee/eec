@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=raleway');
+@import url("https://fonts.googleapis.com/css?family=raleway");
 .nav-container .navbar-brand {
   height: 70px;
 }
 
-.thumbnail>img {
-    margin-right: auto;
-    height: 200px;
-    width: auto;
-    margin-left: auto;
+.thumbnail > img {
+  margin-right: auto;
+  height: 200px;
+  width: auto;
+  margin-left: auto;
 }
 
-.row-login{
+.row-login {
   margin: auto !important;
   padding: 20px;
 }
 
-.subtags{
+.subtags {
   padding-top: 10px;
   padding-bottom: 40px;
   padding-left: 40px;
@@ -23,26 +23,25 @@
   background: rgb(243, 243, 243);
 }
 
-@media (min-width: 768px){
-.col-sm-offset-3 {
-    }
-  }
-
-
-  @media (min-width: 1200px){
-  .container {
-      width: 1054px;
+@media (min-width: 768px) {
+  .col-sm-offset-3 {
   }
 }
 
-.centered-content{
+@media (min-width: 1200px) {
+  .container {
+    width: 1054px;
+  }
+}
+
+.centered-content {
   text-align: center;
 }
-.subtagHeadings{
+.subtagHeadings {
   color: rgb(95, 95, 136);
   /*font-size: 10px;*/
 }
-.paragraph{
+.paragraph {
   margin: 30px;
   color: rgb(99, 99, 99);
   font-size: 18px;
@@ -51,34 +50,33 @@
   text-align: justify;
 }
 
-
-.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #efefef;
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #efefef;
 }
 
 .btn-info {
-    color: #fff;
-    background-color: #b8ac12;
-    border-color: #b8ac12;
+  color: #fff;
+  background-color: #b8ac12;
+  border-color: #b8ac12;
 }
 .btn-info:hover {
-    color: #70b8aa;
-    background-color: white;
-    border-color: #70b8aa;
+  color: #cbd545;
+  background-color: white;
+  border-color: #70b8aa;
 }
 
 .btn-success {
-    color: #fff;
-    background-color: #55b718;
-    border-color: #4cae4c;
+  color: #fff;
+  background-color: #cbd545;
+  border-color: #cbd545;
 }
 .btn-success:hover {
-    color: #55b718;
-    background-color: white;
-    border-color: #55b718;
+  color: #cbd545;
+  background-color: white;
+  border-color: #cbd545;
 }
 
-.quote-paragraph{
+.quote-paragraph {
   margin: 30px;
   color: rgb(99, 99, 99);
   font-size: 18px;
@@ -89,55 +87,59 @@
   padding: 20px;
   border-radius: 10px;
 }
-#blogparagraph{
+#blogparagraph {
   margin: 0 0 10px;
   color: rgb(99, 99, 99);
   font-size: 15px;
   line-height: 1.5;
 }
-.main-content{
+.main-content {
   padding: 20px;
-  background-color:#e4e4e4;
+  background-color: #fff;
 }
 /*DropDown BG color*/
-.nav-pills>li>a {
+.nav-pills > li > a {
   border-radius: 4px;
   background-color: red;
   background-color: rgb(172, 224, 255);
 }
-input{
+input {
   text-align: center;
 }
 
-.form-group{
+.form-group {
   text-align: center;
+}
+
+.img {
+  background-color: white;
 }
 
 .jumbotron {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 65px;
-    padding-right: 65px;
-    margin-bottom: 30px;
-    color: inherit;
-  }
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-bottom: 30px;
+  color: inherit;
+}
 
 /*Theme image*/
 .jumbotron {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   letter-spacing: 4px;
-  border-bottom: 11px solid #55b8a9;
+  border-bottom: 11px solid #cbd545;
   font-weight: lighter;
   text-align: center;
-  background-color: #020202 !important;
+  background-color: #fff !important;
   background-size: cover;
 }
 /*Center everything. For mobile view*/
-.col-md-4{
+.col-md-4 {
   text-align: center;
 }
 /*Space after the button*/
-.form-area{
+.form-area {
   padding-bottom: 20px;
 }
 /*Company Logo at the Bottom of the div*/
@@ -151,31 +153,32 @@ input{
   float: right;
 }
 
-.Title{
+.title {
   font-family: arial;
-  color: #969c87;
+  color: #cbd545;
   font-weight: bold;
-  font-size:38px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
 }
-li > .active > a{
+li > .active > a {
   color: white;
 }
-#warning{
+#warning {
   text-align: center;
   color: red;
 }
-#success{
+#success {
   text-align: center;
   color: green;
 }
-.form-box{
+.form-box {
   text-align: center;
 }
 
 /*Force Change boder color and background color on the navbar both to white*/
 .navbar-default {
-background-color: white !important;
-border-color: white !important;
+  background-color: white !important;
+  border-color: white !important;
 }
 
 /*Active tab color Change*/
@@ -183,22 +186,22 @@ border-color: white !important;
   color: white !important;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #12b8a8 !important;
+  background-color: #cbd545 !important;
 }
-footer{
+footer {
   padding: 30px;
 }
 
-.company-logo{
+.company-logo {
   float: right;
 }
-#dropdown-col{
+#dropdown-col {
   float: left;
 }
 /*--Style CheckBoxes--*/
 /*-----------------------*/
 /*From DevTips Tut*/
-label{
+label {
   cursor: pointer;
   font-size: 30px;
   color: #666;
@@ -206,10 +209,10 @@ label{
 
 /*Target the inputs of type checkbox*/
 /*Using Pre-Advanced Selectors'*/
-input[type="checkbox"]{
+input[type="checkbox"] {
   display: none;
 }
-.label-text:before{
+.label-text:before {
   content: "\f096";
   font-family: "FontAwesome";
   speak: none;
@@ -224,42 +227,41 @@ input[type="checkbox"]{
   margin-right: 5px;
 }
 /*Change icon and color when checked*/
-:checked + .label-text:before{
+:checked + .label-text:before {
   content: "\f14a";
   color: #0683e9;
 }
-.form-control{
+.form-control {
   color: #dc1032;
   border-radius: 0px;
   border: 1px solid #020202;
-
 }
 
-.picture-contact{
+.picture-contact {
   padding: 20px !important;
 }
 
 /*Center Menu links in dropdown menu on modile view*/
-.nav>li>a {
+.nav > li > a {
   margin-top: 16px;
   color: #555;
   text-align: center;
 }
-.nav>.active>a {
+.nav > .active > a {
   margin-top: 16px;
   color: white;
   text-align: center;
 }
-.nav>li>a:hover{
-  color: #e4e4e4 !important;
+.nav > li > a:hover {
+  color: #fff !important;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  background-color: #12b8a8 !important;
+  background-color: #cbd545 !important;
 }
-.top-navbar>li>a:hover{
-  color: #12b8a8 !important;
+.top-navbar > li > a:hover {
+  color: #cbd545 !important;
   background-color: black !important;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -267,17 +269,17 @@ input[type="checkbox"]{
   border-bottom-left-radius: 10px;
 }
 
-.heading{
+.heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-right: 20px;
   padding-left: 20px;
-  color: white;
+  color: #141414;
   line-height: 2;
-  background-color: #020202;
+  background-color: white;
 }
 
-.subject-list{
+.subject-list {
   list-style: none;
   text-align: justify;
   line-height: 2;
@@ -287,7 +289,7 @@ input[type="checkbox"]{
   padding: 20px;
 }
 
-.contact-us{
+.contact-us {
   list-style: none;
   padding: 30px;
   text-align: justify;
@@ -297,27 +299,26 @@ input[type="checkbox"]{
   background: #ececec;
   padding: 20px;
 }
-``
 .thumbnail {
-    display: block;
-    padding: 4px;
-    margin-bottom: 20px;
-    line-height: 1.42857143;
-    background-color: #e5e5e5;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    -webkit-transition: border .2s ease-in-out;
-    -o-transition: border .2s ease-in-out;
-    transition: border .2s ease-in-out;
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #e5e5e5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
 }
 
 /*Buttons*/
 
 .btn-default {
-  color: #FEFEFE;
+  color: #fefefe;
   border-radius: 0px;
-  border-color: #00B4C6;
-  background-color: #00B4C6;
+  border-color: #cbd545;
+  background-color: #cbd545;
 }
 .thumbnail {
   background-color: #e5e5e5;
@@ -329,9 +330,10 @@ input[type="checkbox"]{
   background-color: white !important;
 }
 
-.sub-tag-span{
+.sub-tag-span {
   line-height: 2.5;
-  background-color: black;
+  color: white;
+  background-color: #cbd545;
   padding: 10px;
 }
 .sub-tag-span-quote {
@@ -347,50 +349,91 @@ input[type="checkbox"]{
 }
 
 a {
-    color: #55b884;
-    text-decoration: none;
+  color: #cbd545;
+  text-decoration: none;
 }
 a:hover {
-    color: #949494;
-    text-decoration: none;
+  color: #949494;
+  text-decoration: none;
 }
 
-
-#cancel{
+#cancel {
   background: #dc1032;
   border-color: #dc1032;
 }
 
-#signin, #submit{
+#signin,
+#submit {
   border-radius: 0px;
-  background: #12b8a8;
-  border-color: #12b8a8;
+  background: #cbd545;
+  border-color: #cbd545;
 }
 
-#submit:hover{
+#submit:hover {
   border-radius: 0px;
-  background: #12b8a8;
-  border-color: #12b8a8;
+  background: #cbd545;
+  border-color: #cbd545;
 }
 
-#heading_text{
+#heading_text {
   color: grey;
   font-family: monospace;
 }
 
 /*Blog Quote Paragraph*/
 .quote-paragraph {
-   margin: 50px;
+  margin: 50px;
 }
+
+/* Contact Form */
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Contact form End */
 
 /*Media Queries*/
 @media (max-width: 576px) {
   /*Typewiter on Mobile*/
-  #heading_text{
+  #heading_text {
     font-size: 20px;
   }
   /*Adjust Heading 4 on Small Screens*/
-  .h4, h4 {
+  .h4,
+  h4 {
     font-size: 10px;
   }
 
@@ -401,15 +444,15 @@ a:hover {
     padding-left: 5px;
     text-align: left;
     margin-bottom: 30px;
-}
+  }
 
-/*Resize the Home Image*/
-.thumbnail>img {
+  /*Resize the Home Image*/
+  .thumbnail > img {
     margin-right: auto;
     height: 152px;
     width: auto;
     margin-left: auto;
-}
+  }
 
   /*Blog Paragraphs/MainContent*/
   .main-content {
@@ -421,11 +464,10 @@ a:hover {
   }
 
   .quote-paragraph {
-     margin: 0px;
+    margin: 0px;
   }
 
   .thumbnail-blog {
     display: none;
   }
-
 }
