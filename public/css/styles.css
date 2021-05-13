@@ -113,11 +113,6 @@ input {
   margin-bottom: 30px;
   color: inherit;
 }
-/* Active state */
-.nav-item.active a {
-  color: #cbd545;
-}
-
 /*Theme image*/
 
 /* Center everything. For mobile view */
@@ -245,6 +240,10 @@ input[type="checkbox"] {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   background-color: #cbd545 !important;
+}
+
+.form-space {
+  padding: 50px;
 }
 .top-navbar > li > a:hover {
   color: #cbd545 !important;

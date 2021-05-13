@@ -1,1 +1,3 @@
-# NodeJs Website
+# Exhorbi Enterprise Consult Website
+
+`npm install`

@@ -1,19 +1,21 @@
 const express = require('express');
 const expressHandlebars = require('express-handlebars');
 const app = express();
-const mysql = require('mysql');
-const bodyParser = require('body-parser');
 const session = require('express-session');
-const myConnection = require('express-myconnection');
+// Mailer
+var nodemailer = require('nodemailer');
+const multiparty = require("multiparty");
+require("dotenv").config();
+
 const flash = require('express-flash');
 const mid = require('./middleware');
 const login = require('./routes/login');
 //Start the server
 app.set('port', (process.env.PORT || 5007));
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(express.urlencoded({ extended: false }));
 // parse application/json
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(express.static('public'));
 app.use(flash());
 //setup handlebars
@@ -31,7 +33,6 @@ app.use(session
   )
 );
 //Make userID available in all templates
-// Creating a Middleware
 app.use(function (req, res, next) {
   res.locals.currentUser = req.session.userID;
   next();
@@ -65,7 +66,7 @@ app.get("/relations", mid.requiresLogin, function (req, res) {
     user: req.session.user
   })
 });
-app.get("/contact", mid.requiresLogin, function (req, res) {
+app.get("/contact", function (req, res) {
   res.render("contact", {
     user: req.session.user
   })
@@ -75,6 +76,60 @@ app.get("/about", function (req, res) {
     user: req.session.user
   })
 });
+
+// Emailer---------------------------------------
+
+const transporter = nodemailer.createTransport({
+  //host: "smtp.live.com", 
+  host: "smtp-mail.outlook.com", //replace with your email provider
+  port: 587,
+  auth: {
+    user: process.env.EMAIL,
+    pass: process.env.PASS,
+  },
+});
+
+// verify connection configuration
+transporter.verify(function (error, success) {
+  if (error) {
+    console.log(error);
+  } else {
+    console.log(success, "Server is ready to take our messages");
+  }
+});
+
+app.post("/send", (req, res) => {
+  //1.
+  let form = new multiparty.Form();
+  let data = {};
+  console.log("Data : ", data);
+  form.parse(req, function (err, fields) {
+    console.log(fields);
+    Object.keys(fields).forEach(function (property) {
+      data[property] = fields[property].toString();
+    });
+
+    //2. You can configure the object however you want
+    const mail = {
+      from: data.from_email,
+      to: process.env.EMAIL,
+      subject: data.subject,
+      fullnames: data.fullnames,
+      text: data.message,
+    };
+
+    //3.
+    transporter.sendMail(mail, (err, data) => {
+      if (err) {
+        console.log(err);
+        res.status(500).send("Something went wrong.");
+      } else {
+        res.status(200).send("Email successfully sent to recipient!");
+      }
+    });
+  });
+});
+
 
 // Routed Views
 app.post("/login", login.login);

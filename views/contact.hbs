@@ -33,26 +33,33 @@
       </div>
     </div>
   </div>
-
 </div>
+
 <div class="row">
-  <div class="col-md-12">
+
+  <div class="col-md-12 form-space">
 
     <h1 style="font-size:28px;"><span class="heading">Send us a message</span></h1>
 
-    <form action="/action_page.php">
-      <input type="text" id="fullnames" name="fullnames" placeholder="Full Names..">
+    <form id="contact-form" method="POST" enctype="multipart/form-data" action="send">
 
-      <input type="text" id="lname" name="email" placeholder="Email..">
+      <input type="text" id="fullnames" name="fullnames" aria-describedby="emailHelp" placeholder="Full Names..">
 
-      <input type="text" id="lname" name="companyname" placeholder="Company Name..">
+      <input type="text" id="from-email" name="from_email" aria-describedby="emailHelp" placeholder="Email..">
 
-      <input type="text" id="lname" name="product" placeholder="Product..">
+      <input type="text" id="subject" name="subject" aria-describedby="emailHelp" placeholder="Subject..">
 
-      <textarea id="subject" name="subject" placeholder="Enter your message.." style="height:200px"></textarea>
+      <input type="text" id="companyname" name="companyname" aria-describedby="emailHelp" placeholder="Company Name..">
+
+      <input type="text" id="product" name="product" aria-describedby="emailHelp" placeholder="Product..">
+
+      <textarea id="message" name="message" placeholder="Enter your message.." style="height:200px"></textarea>
 
       <input type="submit" value="Submit">
+
     </form>
+
     <br>
+
   </div>
 </div>
